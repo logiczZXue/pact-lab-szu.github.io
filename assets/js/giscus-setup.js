@@ -6,10 +6,10 @@ function determineGiscusTheme() {
       "system";
 
     if (theme === "dark") return "dark";
-    if (theme === "light") return "light";
+    if (theme === "light") return "prussian";
 
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return prefersDark ? "dark" : "light";
+    return prefersDark ? "dark" : "prussian";
   
 }
 
